@@ -2,3 +2,42 @@ body{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+section{
+    height: 808px;
+    padding-bottom: 130px;
+}
+.banner-section{
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.banner-text{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+    text-align: right;
+}
+.banner-section h1{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+.banner-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 35px;
+}
+.banner-section a{
+    text-decoration: none;
+    background: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
