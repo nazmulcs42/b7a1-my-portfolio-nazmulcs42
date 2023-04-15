@@ -93,7 +93,6 @@
 }
 
 .knowledge-section{
-    /* height: 550px; */
     margin-top: 130px;
     text-align: center;
 }
@@ -104,20 +103,24 @@
     color: #151414;
 }
 .knowledge-section .knowledge-details{
-    margin-top: 55px;
+    margin: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .knowledge-section .knowledge-details .training,
 .knowledge-section .knowledge-details .education {
-    height: 80%;
+    height: 300px;
     margin: 50px;
     padding: 50px;
     text-align: left;
     border-left: 7px solid #F15B22;
     box-shadow: 3px 5px 10px gray;
     box-sizing: border-box;
+}
+
+.knowledge-section .knowledge-details .education {
+    margin-left: 0px;
 }
 
 .knowledge-section .knowledge-details .training h3,
