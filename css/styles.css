@@ -110,7 +110,7 @@
 }
 .knowledge-section .knowledge-details .training,
 .knowledge-section .knowledge-details .education {
-    height: 300px;
+    min-height: 300px;
     margin: 50px;
     padding: 50px;
     text-align: left;
@@ -137,7 +137,7 @@
 
 .planing-section {
     height: 300px;
-    margin-top: 130px;
+    margin: 130px;
     text-align: center;
 }
 .planing-section .planing-title{
