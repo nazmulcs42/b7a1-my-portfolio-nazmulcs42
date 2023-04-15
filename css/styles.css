@@ -97,7 +97,14 @@
     margin-top: 130px;
     text-align: center;
 }
+.knowledge-section .knowledge-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
 .knowledge-section .knowledge-details{
+    margin-top: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +116,7 @@
     padding: 50px;
     text-align: left;
     border-left: 7px solid #F15B22;
-    box-shadow: 5px 7px 40px gray;
+    box-shadow: 3px 5px 10px gray;
     box-sizing: border-box;
 }
 
@@ -129,6 +136,12 @@
     height: 300px;
     margin-top: 130px;
     text-align: center;
+}
+.planing-section .planing-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
 }
 .planing-section .planing-cards{
     margin-top: 55px;
